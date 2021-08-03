@@ -1,0 +1,34 @@
+.bottombar{
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(219, 219, 219);
+}
+
+.bottombarWrapper{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.bottombarIconContainer {
+    position: relative;
+}
+
+.bottomIconBadge{
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    background-color: rgb(255, 0, 0);
+    color: cornsilk;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}

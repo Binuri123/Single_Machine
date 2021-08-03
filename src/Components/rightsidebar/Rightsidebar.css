@@ -1,0 +1,125 @@
+.r{
+    margin-top: 10px;
+    width: 400px;
+    height: 820px;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+    align-content: space-around;
+    background-color: lightgray;
+}
+
+.r:hover{
+    transform: scale(1,1);
+    box-shadow: 0px 0px 2px 0px;
+}
+
+.rItem{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+
+}
+
+.rflexcontainer{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.rflexcontainerx{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.tdleft{
+    text-align: center;
+}
+
+.tdmid{
+    align-self: center;
+    text-align: center;
+}
+
+.tdright{
+    text-align: right;
+}
+
+.play{
+    color: darkblue;
+}
+
+.thumbup{
+    color: rgb(40, 75, 5);
+}
+
+.thumbdown{
+    color: crimson;
+}
+
+.rTitle{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.rPercentagecontainer{
+    margin: 10px 0px;
+    align-items: center;
+}
+
+.rPercentage{
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.rPercentageRate{
+    justify-content: space-around;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.rPercentageDetail{
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+
+.checkcircle{
+    color: rgb(33, 177, 5);
+}
+
+.errorout{
+    color: coral;
+}
+
+.rIcon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 10px;
+    margin-left: 5px;
+    color: green;
+}
+
+.rIconright{
+    align-self: right;
+    font-size: 40px;
+    margin-left: 5px;
+    color: green;
+}
+
+.rIcon.negative{
+    color: red;
+}

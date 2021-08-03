@@ -1,0 +1,112 @@
+.q{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+    align-content: space-around;
+    background-color: #d3d3d3;
+}
+
+.q:hover{
+    transform: scale(1,1);
+    box-shadow: 0px 0px 2px 0px;
+}
+
+.qItem{
+    width: 100%;
+    height: 100%;
+    margin-top: 110px;
+
+}
+
+.notuse{
+    color: #d3d3d3;
+}
+
+.qflexcontainer{
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.play{
+    color: darkblue;
+}
+
+.thumbup{
+    color: rgb(40, 75, 5);
+}
+
+.thumbdown{
+    color: crimson;
+}
+
+.checkcircle{
+    color: rgb(33, 177, 5);
+}
+
+.errorout{
+    color: coral;
+}
+
+.qTitle{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.qPercentage{
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.qPercentageRate{
+    font-size: 30px;
+    font-weight: 400;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+.qIconcheck{
+    align-items: left;
+    font-size: 14px;
+    margin-left: 5px;
+    color: green;
+}
+
+.qPercentageDetail{
+    font-size: 25px;
+}
+
+.qPercentageDetailcontainer{
+    margin-top: 30px;
+}
+
+.qPercentageDetailx{
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 40px;
+    color: crimson;
+}
+
+.qIconright{
+    align-self: right;
+    font-size: 14px;
+    margin-left: 5px;
+    color: green;
+}
+
+.qIconcheck.negative{
+    color: red;
+}

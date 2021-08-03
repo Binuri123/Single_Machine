@@ -1,0 +1,90 @@
+.pe{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+    align-content: space-around;
+    background-color: lightgray;
+}
+
+.pe:hover{
+    transform: scale(1,1);
+    box-shadow: 0px 0px 2px 0px;
+}
+
+.peItem{
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+    margin-right: 50px;
+}
+
+.pePercentage{
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.peflexcontainer{
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    text-align: center;
+    justify-content: space-between;
+} 
+
+.gauge{
+    margin-top: 40px;
+    width: 100%;
+    height: 100px;
+}
+
+.checkcircle{
+    color: rgb(33, 177, 5);
+}
+
+.errorout{
+    color: coral;
+}
+
+.play{
+    color: darkblue;
+}
+
+.thumbup{
+    color: rgb(40, 75, 5);
+}
+
+.thumbdown{
+    color: crimson;
+}
+
+
+.peTitle{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.table{
+    margin-top: 5px;
+    width: 400px;
+    
+
+}
+
+.tdleft{
+    text-align-last: left;
+    column-width: 30px;
+}
+
+.tdright{
+    justify-content: flex-end;
+}

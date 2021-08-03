@@ -1,0 +1,8 @@
+.home2{
+    align-self: flex-end;
+    display: flex;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    justify-content: space-around;
+    padding: 5px;
+}

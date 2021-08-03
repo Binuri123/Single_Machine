@@ -1,0 +1,131 @@
+.pri{
+    margin-top: 10px;
+    width: 400px;
+    height: 820px;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+    align-content: space-around;
+    background-color: lightgray;
+}
+
+.pri:hover{
+    transform: scale(1,1);
+    box-shadow: 0px 0px 2px 0px;
+}
+
+.priItem{
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.priItemX{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+
+}
+
+.priflexcontainer{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.priflexcontainerx{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.tdleft{
+    text-align: center;
+}
+
+.tdmid{
+    align-self: center;
+    text-align: center;
+}
+
+.tdright{
+    text-align: right;
+}
+
+.play{
+    color: darkblue;
+}
+
+.thumbup{
+    color: rgb(40, 75, 5);
+}
+
+.thumbdown{
+    color: crimson;
+}
+
+.priTitle{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.priPercentagecontainer{
+    margin: 10px 0px;
+    align-items: center;
+}
+
+.priPercentage{
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.priPercentageRate{
+    justify-content: space-around;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.priPercentageDetail{
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+
+.checkcircle{
+    color: rgb(33, 177, 5);
+}
+
+.errorout{
+    color: coral;
+}
+
+.rIcon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 10px;
+    margin-left: 5px;
+    color: green;
+}
+
+.priIconright{
+    align-self: right;
+    font-size: 40px;
+    margin-left: 5px;
+    color: green;
+}
+
+.priIcon.negative{
+    color: red;
+}

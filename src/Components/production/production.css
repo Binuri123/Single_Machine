@@ -1,0 +1,137 @@
+.p{
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+    align-content: space-around;
+    background-color: lightgray;
+}
+
+.p:hover{
+    transform: scale(1,1);
+    box-shadow: 0px 0px 2px 0px;
+}
+
+.pItem{
+    width: 100%;
+    height: 100%;
+    /* margin-top: 10px; */
+
+}
+
+.pflexcontainer{
+    padding: 5px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.pflexcontainerx{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+.pflexcontainerxy{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+}
+
+.tdleft{
+    text-align: center;
+}
+
+.tdmid{
+    align-self: center;
+    text-align: center;
+}
+
+.tdright{
+    text-align: right;
+}
+
+.play{
+    color: darkblue;
+}
+
+.thumbup{
+    color: rgb(40, 75, 5);
+}
+
+.thumbdown{
+    color: crimson;
+}
+
+.pTitle{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.pPercentagecontainer{
+    margin: 0px 0px;
+    align-items: center;
+}
+
+.pPercentage{
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.pPercentageRate{
+    justify-content: space-around;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.pPercentageDetail{
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+
+.checkcircle{
+    color: rgb(33, 177, 5);
+}
+
+.errorout{
+    color: coral;
+}
+
+.pIcon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: large;
+    margin-left: 5px;
+    color: green;
+}
+
+.pIconright{
+    align-self: right;
+    font-size: large;
+    margin-left: 5px;
+    color: green;
+}
+
+.pIcon.negative{
+    color: red;
+}

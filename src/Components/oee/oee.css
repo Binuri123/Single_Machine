@@ -1,0 +1,100 @@
+.o{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+    align-content: space-around;
+    background-color: lightgray;
+}
+
+.o:hover{
+    transform: scale(1,1);
+    box-shadow: 0px 0px 2px 0px;
+}
+
+.oItem{
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    padding-right: 5px;
+}
+
+.oItemx{
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.oflexcontainer{
+margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.play{
+    color: darkblue;
+}
+
+.thumbup{
+    color: rgb(141, 255, 34);
+}
+
+.thumbdown{
+    color: rgb(255, 166, 0);
+}
+
+.oTitle{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.oPercentagecontainer{
+    margin: 10px 0px;
+    align-items: center;
+}
+
+.checkcircle{
+    color: rgb(33, 177, 5);
+}
+
+.errorout{
+    color: coral;
+}
+
+.oPercentage{
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.oPercentageRate{
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+.oIconleft{
+    align-items: left;
+    font-size: 14px;
+    margin-left: 5px;
+    color: green;
+}
+
+.oIconright{
+    align-self: right;
+    font-size: 14px;
+    margin-left: 5px;
+    color: green;
+}
+
+.oIcon.negative{
+    color: red;
+}
